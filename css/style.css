@@ -1,0 +1,576 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+#root {
+  width: 100%;
+  height: 100%;
+}
+#root #wrap {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: relative;
+}
+#root #wrap #loginWrap {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: relative;
+}
+#root #wrap #loginWrap .container {
+  width: 100%;
+  height: 100%;
+}
+#root #wrap #loginWrap .container .gap {
+  width: 100%;
+  height: 100%;
+}
+#root #wrap #loginWrap .container .gap .wrap {
+  width: 100%;
+  height: 100%;
+}
+#root #wrap #loginWrap .container .gap .wrap .top {
+  width: 100%;
+  height: 1032px;
+  margin-top: 32px;
+  padding: 0 0 32px;
+  display: flex;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .slide-container {
+  width: 400px;
+  height: 582px;
+  margin: auto 0 auto auto;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .slide-container .slide-view {
+  width: 100%;
+  height: 100%;
+  margin: auto 32px 12px auto;
+  position: relative;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .slide-container .slide-view::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/slide_00.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .slide-container .slide-view .slide-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .slide-container .slide-view .slide-wrap .slide {
+  width: 230px;
+  height: 100%;
+  position: absolute;
+  top: 22px;
+  right: 40px;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .slide-container .slide-view .slide-wrap .slide img {
+  width: 100%;
+  height: auto;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box {
+  width: 350px;
+  margin: auto auto auto 0;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap {
+  width: 100%;
+  height: 400px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .logo-box {
+  margin: 4px 0;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .logo-box a {
+  width: 175px;
+  height: 51px;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .logo-box a img {
+  width: 175px;
+  height: auto;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .input-box {
+  height: 88px;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .input-box > li {
+  width: 268px;
+  height: 38px;
+  margin: 0 auto 6px auto;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .input-box > li.on {
+  border: 1px solid #898989;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .input-box > li.on label .guide-txt {
+  font-size: 10px;
+  line-height: 12px;
+  transition: all 0.3s ease-in-out;
+  vertical-align: text-top;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .input-box > li label .guide-txt {
+  width: 250px;
+  height: 36px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 8px;
+  color: #8e8e8e;
+  font-size: 12px;
+  line-height: 36px;
+  text-align: left;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .input-box > li label input {
+  width: 258px;
+  height: 36px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 9px 0 7px 8px;
+  border: none;
+  color: #262626;
+  font-size: 12px;
+  line-height: 18px;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .input-box > li label input:focus {
+  outline: none;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .btn-box {
+  width: 268px;
+  height: 30px;
+  margin: 8px auto;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap #loginForm .btn-box button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  background: rgba(0, 149, 246, 0.3);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #fff;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap .or-box {
+  width: 100%;
+  height: 15px;
+  margin: 10px auto 18px auto;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap .or-box .back-line {
+  height: 1px;
+  width: 103px;
+  display: inline-block;
+  background: #dbdbdb;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap .or-box span {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  color: #8e8e8e;
+  margin: 0 18px;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap .facebook-box {
+  width: 100%;
+  height: 20px;
+  margin: 15px 0 20px 0;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap .facebook-box button .facebook-logo {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  display: inline-block;
+  background: url(../images/facebook_ico.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap .facebook-box button span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #385185;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .login-wrap a {
+  width: 100%;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #00376b;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .sign-up-box {
+  width: 100%;
+  height: 63px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border: 1px solid #dbdbdb;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .sign-up-box div {
+  text-align: center;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .sign-up-box div p {
+  width: 100%;
+  height: 18px;
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .sign-up-box div p a {
+  color: #0095f6;
+  font-weight: 600;
+  vertical-align: text-top;
+  margin-left: 3px;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .app-box p {
+  width: 100%;
+  height: 18px;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .app-box .link-box {
+  display: flex;
+  margin: 20px auto 10px auto;
+  justify-content: center;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .app-box .link-box a {
+  width: 136px;
+  height: 44px;
+  margin: 0 4px;
+}
+#root #wrap #loginWrap .container .gap .wrap .top .login-box .app-box .link-box a img {
+  width: 136px;
+  height: auto;
+}
+#root #wrap #loginWrap .container .gap .wrap .footer {
+  width: 100%;
+  height: 134px;
+  padding: 0 16px;
+}
+#root #wrap #loginWrap .container .gap .wrap .footer .footer-box {
+  margin-bottom: 52px;
+}
+#root #wrap #loginWrap .container .gap .wrap .footer .footer-box > ul {
+  width: 100%;
+  height: 23px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+#root #wrap #loginWrap .container .gap .wrap .footer .footer-box > ul li {
+  height: 11px;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0 8px 12px 8px;
+}
+#root #wrap #loginWrap .container .gap .wrap .footer .footer-box > ul li a {
+  color: #8e8e8e;
+}
+#root #wrap #loginWrap .container .gap .wrap .footer .footer-box .footer-bottom {
+  display: flex;
+  justify-content: center;
+  margin: 12px 0;
+}
+#root #wrap #loginWrap .container .gap .wrap .footer .footer-box .footer-bottom div p {
+  height: 11px;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0 8px 12px 8px;
+  color: #8e8e8e;
+}
+#root #wrap #mainWrap {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: relative;
+}
+#root #wrap #mainWrap header {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+#root #wrap #mainWrap header .container {
+  width: 975px;
+  height: 100%;
+  margin: auto;
+}
+#root #wrap #mainWrap header .container .gap {
+  width: 100%;
+  height: 100%;
+}
+#root #wrap #mainWrap header .container .gap .wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0 20px;
+}
+#root #wrap #mainWrap header .container .gap .wrap .logo-box {
+  width: 103px;
+  height: 100%;
+  float: inline-start;
+}
+#root #wrap #mainWrap header .container .gap .wrap .logo-box a {
+  width: 100%;
+  display: inline-block;
+}
+#root #wrap #mainWrap header .container .gap .wrap .logo-box a img {
+  width: 100%;
+  height: auto;
+}
+#root #wrap #mainWrap header .container .gap .wrap .search-box {
+  width: 268px;
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 8px;
+  margin: auto;
+  background: #efefef;
+}
+#root #wrap #mainWrap header .container .gap .wrap .search-box label .fa-search {
+  width: 16px;
+  height: 100%;
+  font-size: 16px;
+  line-height: 34px;
+  color: rgb(142, 142, 142);
+}
+#root #wrap #mainWrap header .container .gap .wrap .search-box label input {
+  width: auto;
+  height: 100%;
+  padding: 0 0 0 16px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #8e8e8e;
+  background: #efefef;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box {
+  width: auto;
+  height: 100%;
+  float: inline-end;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav {
+  height: 100%;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list {
+  height: 100%;
+  display: flex;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list .menu-item {
+  width: 24px;
+  height: 24px;
+  margin: auto 4px auto 4px;
+  justify-self: center;
+  position: relative;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list .menu-item a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list .menu-item a i {
+  font-size: 18px;
+  display: inline-block;
+  margin: auto;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list .menu-item a i.user-ico {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(../images/img10.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list .menu-item .user-menu {
+  width: 230px;
+  height: 287px;
+  position: absolute;
+  z-index: 3;
+  top: 60px;
+  right: 0;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: -5px 3px 10px rgba(0, 0, 0, 0.1);
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list .menu-item .user-menu ul {
+  width: 100%;
+  height: 100%;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list .menu-item .user-menu ul li {
+  width: 230px;
+  height: 37px;
+  margin-bottom: 4px;
+  padding: 8px 16px;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list .menu-item .user-menu ul li:last-child {
+  border-top: 1px solid rgb(218, 221, 225);
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list .menu-item .user-menu ul li a {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list .menu-item .user-menu ul li a i {
+  width: 16px;
+  height: 21px;
+  font-size: 17px;
+  line-height: 12px;
+  margin-right: 12px;
+}
+#root #wrap #mainWrap header .container .gap .wrap .nav-box nav .menu-list .menu-item .user-menu ul li a span {
+  font-size: 14px;
+  line-height: 18px;
+  vertical-align: text-top;
+}
+#root #wrap #mainWrap main {
+  width: 100%;
+  height: 100%;
+}
+#root #wrap #mainWrap main .container {
+  width: 100%;
+  height: 100%;
+}
+#root #wrap #mainWrap main .container .gap {
+  width: 100%;
+  height: 100%;
+}
+#root #wrap #mainWrap main .container .gap .wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#root #wrap #mainWrap main .container .gap .wrap section {
+  width: 470px;
+  height: 100%;
+  margin: 10px 32px 0 0;
+}
+#root #wrap #mainWrap main .container .gap .wrap section .story-box {
+  width: 470px;
+  height: 119px;
+  margin-top: 16px;
+  padding: 16px 0;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 8px;
+}
+#root #wrap #mainWrap main .container .gap .wrap section .post-box {
+  width: 470px;
+  height: 100%;
+  margin-top: 16px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 8px;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside {
+  width: 319px;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .login-info {
+  width: 100%;
+  height: 66px;
+  margin: 26px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .login-info a {
+  width: auto;
+  height: 100%;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .login-info a:nth-child(2) {
+  margin: auto auto auto 0;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .login-info a img {
+  width: 66px;
+  height: 100%;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .login-info a .login-name {
+  height: 30px;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .login-info a button {
+  margin: auto 0 auto auto;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 66px;
+  color: #0095f6;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box {
+  width: 100%;
+  height: 100%;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box .recommend-more {
+  height: 19px;
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box .recommend-more p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  color: rgb(142, 142, 142);
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box .recommend-more button {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  float: inline-end;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box .recommend-list {
+  width: 100%;
+  height: 48px;
+  padding: 8px 0;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box .recommend-list .recommend-user {
+  display: flex;
+  justify-content: space-between;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box .recommend-list .recommend-user a {
+  width: auto;
+  height: 100%;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box .recommend-list .recommend-user a:nth-child(2) {
+  margin: auto auto auto 0;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box .recommend-list .recommend-user a img {
+  width: 42px;
+  height: 42px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box .recommend-list .recommend-user a .recommend-name {
+  height: 30px;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  display: block;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box .recommend-list .recommend-user a .recommend-txt {
+  height: 30px;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #8e8e8e;
+  display: block;
+}
+#root #wrap #mainWrap main .container .gap .wrap aside .recommend-box .recommend-list .recommend-user a button {
+  margin: auto 0 auto auto;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #0095f6;
+}
